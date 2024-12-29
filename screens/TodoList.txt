@@ -1,0 +1,79 @@
+1. Reorder Tags
+Allow users to reorder tags for better organization.
+ementation: Use a drag-and-drop library like react-native-draggable-flatlist.  --> done 
+
+2. Filter Notes by Multiple Tags
+Enable users to filter notes by selecting multiple tags.
+ementation:
+
+Modify the handleSearch function to accept multiple tags (e.g., #tag1, #tag2).
+Filter notes containing all selected tags.
+3. Tag Suggestions
+Show suggestions for tags as the user types.
+ementation:
+
+Use the tags array to provide suggestions in the TextInput for newTag.
+4. Pin Notes
+Allow users to pin important notes to the top.
+ementation:
+
+Add a pinned property to note data.
+Display pinned notes separately at the top of the list.
+5. Archive Notes
+Add an "Archive" feature to declutter the main screen.
+ementation:
+
+Introduce a toggle to switch between archived and active notes.
+Add an archived property to notes and filter them in the display.
+6. Tag Color Customization
+Allow users to choose custom colors for each tag.
+ementation:
+
+Provide a color picker (e.g., react-native-color-picker) when editing a tag.
+7. Rich Text Editor
+Transform the note editor into a rich text editor for formatting (bold, italic, lists).
+ementation:
+
+Use libraries like react-native-rich-text-editor.
+8. Duplicate Notes
+Add a function to duplicate a note.
+ementation:
+
+Copy the content and tags of an existing note and create a new note.
+9. Sort Notes
+Provide options to sort notes by title, date, or number of tags.
+ementation:
+
+Add a dropdown menu to select sorting criteria.
+Sort notes or filteredNotes before rendering.
+10. Reminder for Notes
+Enable users to set reminders for notes.
+ementation:
+
+Use react-native-push-notification to schedule reminders.
+11. Tag Groups
+Group tags into categories (e.g., Work, Personal).
+ementation:
+
+Add a category property to tags.
+Group tags visually under these categories.
+12. Export Notes
+Allow users to export notes as a text file or PDF.
+ementation:
+
+Use libraries like react-native-share for sharing text files.
+13. Note Collaboration
+Enable note sharing and collaboration with others.
+ementation:
+
+Integrate with a backend (e.g., Firebase) to allow sharing notes with links or email.
+14. Tag Statistics
+Show stats like most used tags or tag frequency.
+ementation:
+
+Calculate and display counts of each tag in a separate stats screen.
+15. Dark Mode Support
+Add a toggle for dark mode.
+ementation:
+
+Use react-native-appearance or your own state-based theme system.
